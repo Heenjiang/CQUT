@@ -1,0 +1,98 @@
+/*鏂板缓鍏ㄥ眬*/
+.all{
+	width: 600px;
+	height: 500px;
+	margin:auto;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 100px;
+	z-index: 1;
+	background: white;
+	display: none;
+}
+/*鏂板缓鐨勪笂閮�*/
+.editorTop{
+	width: 600px;
+	height: 40px;
+	background-color: #444444;
+	border:1px solid #000;
+}
+/*涓婇儴鏂囧瓧*/
+.editorTopWords{
+	font-family:"Microsoft YaHei";
+	font-size: 20px;
+	margin-top:5px;
+	color:white;
+	margin-left: 40px;
+	font-weight:bold;
+}
+/*鏂板缓淇℃伅鐨勬鏂�*/
+.editorText{
+	width: 600px;
+	height: 400px;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+
+}
+/*鏂板缓鐨勮〃鏍�*/
+.editorText table{
+	width:400px;
+	margin:auto;
+}
+/*姣忚灞炴��*/
+.editorText tr{
+	line-height:50px; 
+}
+/*姣忔牸灞炴��*/
+.editorText td{
+	font-family:"Microsoft YaHei";
+	font-size: 14px;
+	float: left;
+}
+/*鏂板缓鐨勬瘡鏍�*/
+.editorText td div{
+	color: #ff2929;
+	width: 100px;
+	float: right;
+}
+/*鏂板缓杈撳叆*/
+.editorText input{
+	width: 150px;
+	margin-top:15px;
+	margin-left:10px;
+}
+/*鏂板缓搴曢儴*/
+.editorBottom{
+	width: 600px;
+	height: 60px;
+	border:1px solid #000;
+}
+
+/*鎸夐挳閫氱敤鏍峰紡*/
+.editorButton{
+	height: 38px;
+	width: 94px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    line-height:38px; 
+	overflow:hidden; 
+	border:1px solid #000;
+	/*鍏夋爣鏍峰紡*/
+    cursor: pointer;
+
+}
+/*澧炲姞鎸夐挳*/
+.editorAddButton{
+	margin-top: 10px;
+	margin-left: 350px;
+	color: white;
+	background-color:#0066ff;
+}
+/*鍒犻櫎鎸夐挳*/
+.editorDeleteButton{
+	margin-top: 10px;
+	margin-right: 40px;
+	float: right;
+}

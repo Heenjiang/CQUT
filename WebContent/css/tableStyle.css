@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*涓婚〉鑳屾櫙鑹�*/
+body {
+    background-color: #f0ece9;
+}
+/*瀹瑰櫒*/
+.container {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/*鍒楄〃*/
+.list {
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    z-index: 0;
+}
+/*涓婃柟鏍囬*/
+.top {
+    width: 1200px;
+    height: 80px;
+    margin-top: 60px;
+    margin: auto;
+}
+/*涓婃柟妯嚎*/
+.topLine {
+    height: 10px;
+    width: 35%;
+    background-color: #c3a080;
+    float: left;
+    margin-top: 16px;
+}
+/*涓婃柟瀛椾綋瀹瑰櫒*/
+.topWordsContainer {
+    width: 30%;
+    height: 35px;
+    float: left;
+}
+/*涓婃柟鏂囧瓧鏍峰紡*/
+.topWords {
+    font-size: 28px;
+    color: #797979;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+/*娣诲姞鍒犻櫎鎸夐挳瀹瑰櫒*/
+.addDeleteButtonContainer {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    margin-top: -10px;
+}
+/*鎸夐挳閫氱敤鏍峰紡*/
+.Button {
+    height: 38px;
+    width: 94px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    line-height: 38px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s linear;
+}
+/*澧炲姞鎸夐挳*/
+.addButton {
+    background-color: #5cb85c;
+}
+/*鎮诞鍦ㄥ鍔犳寜閽椂鍙樼殑棰滆壊*/
+.addButton:hover {
+    background-color: #4cae4c;
+}
+/*鍒犻櫎鎸夐挳*/
+.deleteButton {
+    margin-left: 20px;
+    background-color: #d9534f;
+}
+
+/*鎼滅储鎸夐挳*/
+.searchButton {
+    margin-left: 20px;
+    background-color: #5cb85c;
+}
+/*鎮诞鍦ㄦ悳绱㈡寜閽椂鐨勯鑹�*/
+.deleteButton:hover {
+    background-color: #4cae4c;
+}
+/*鎮诞鍦ㄥ垹闄ゆ寜閽椂鐨勯鑹�*/
+.deleteButton:hover {
+    background-color: #d43f3a;
+}
+/*鎼滅储淇℃伅杈撳叆妗�*/
+.searchInput{
+    margin-top: 10px;
+    height: 20px;
+    margin-left: 10px;
+    width: 150px;
+}
+/*琛ㄦ牸瀹瑰櫒*/
+.tableContainer {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+}
+/*琛ㄦ牸绗竴琛�*/
+.tableFirstLine {
+    text-align: center;
+    background: #dadee1;
+    height: 45px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: bold;
+}
+/*绗竴琛屽唴閮�*/
+.tableFirstLine td {
+    border-top: 1px solid #bcc0c3;
+    border-bottom: 1px solid #bcc0c3;
+}
+.tableNext {
+    text-align: center;
+    height: 40px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.tableNext tr {}
+.tableNext td {
+    height: 50px;
+}
+.warning {
+    width: 100px;
+    margin-left: 40px;
+    display: none;
+}
+/*鎬绘暟*/
+.totalNumbers {
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+.lastPage {
+    background-color: #39c;
+    width: 80px;
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: -50px;
+}
+/*缈婚〉鏍峰紡*/
+.nextPage {
+    background-color: #39c;
+    width: 80px;
+    font-family: "Microsoft YaHei";
+    font-size: 13px;
+    margin-left: 1100px;
+    position: absolute;
+    margin-top: -50px;
+}
